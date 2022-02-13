@@ -1,0 +1,12 @@
+{
+  "url": "https://maps.sensor.community/?nowind#11/59.9327/30.5468",
+  "getPM2.5": true,
+  "getPM10": true,
+  "screenshotsPath": "./tmp/",
+  "logo": "./gd.png",
+  "logoText": {
+    "text": "citizenscience.ru",
+    "x": 1948,
+    "y": 100
+  }
+}

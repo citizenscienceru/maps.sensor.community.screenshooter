@@ -1,0 +1,29 @@
+{
+  "name": "maps.sensor.community.screenshooter",
+  "version": "1.0.0",
+  "description": "Takes pictures of the map by coordinates, collects it in a video.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citizenscinceru/maps.sensor.community.screenshooter.git"
+  },
+  "author": "Roman 'ROM' Milovsky",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/citizenscinceru/maps.sensor.community.screenshooter/issues"
+  },
+  "homepage": "https://github.com/citizenscinceru/maps.sensor.community.screenshooter#readme",
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "nconf": "^0.11.3",
+    "npm": "^8.3.2",
+    "puppeteer": "^13.1.1",
+    "youtube-videos-uploader": "^1.3.43"
+  },
+  "devDependencies": {
+    "pm2": "^5.1.2"
+  }
+}
