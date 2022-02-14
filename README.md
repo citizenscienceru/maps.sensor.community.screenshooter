@@ -18,6 +18,10 @@ e-mail: [contact@citizenscience.ru](mailto: contact@citizenscience.ru)
 
 site: [citizenscience.ru](https://citizenscience.ru)
 
+# Thanx to
+
+[Sergey Konovalov](https://github.com/sergeykonovalov) for Docker config
+
 # Support
 Qiwi 4890494716315221
 
