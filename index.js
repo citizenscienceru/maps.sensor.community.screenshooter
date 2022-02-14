@@ -97,12 +97,15 @@ const writeImage = async (screenshotFileName, name) => {
 };
 
 const start = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox']
+  });
   const page = await browser.newPage();
 
   process.on("SIGINT", function () {
     browser.close();
-    process.exit(err ? 1 : 0);
+    process.exit(err ? 1 : 0); // err is not defied anywhere
   });
 
   // directory for current date
@@ -142,6 +145,6 @@ const start = async () => {
 
 setInterval(() => {
   start();
-}, 120000);
+}, 120000); // every two minutes
 
 start();
